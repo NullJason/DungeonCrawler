@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6912041180619501434
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2756531669265718123}
+    m_Modifications:
+    - target: {fileID: 850016779635621869, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_Name
+      value: Slime Machine Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+--- !u!4 &1101374099603563497 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5810871938072824979, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+  m_PrefabInstance: {fileID: 6912041180619501434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8322961565364995260 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3201383854103145414, guid: 0e76cd821aa3833438d2292b58c88cb8, type: 3}
+  m_PrefabInstance: {fileID: 6912041180619501434}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c7d22a6633f64d46a6137a7bfa0a65f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &8422278676461252657
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1717869434130953043, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_Name
+      value: Superslime Boss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443213166497922173, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: speed
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8443213166497922173, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      propertyPath: health
+      value: 40
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8443213166497922173, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 6813996985882680749, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1101374099603563497}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1717869434130953043, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7479684133961021551}
+  m_SourcePrefab: {fileID: 100100000, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+--- !u!4 &2756531669265718123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5953999670272551770, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+  m_PrefabInstance: {fileID: 8422278676461252657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7149157590116696930 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1717869434130953043, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+  m_PrefabInstance: {fileID: 8422278676461252657}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7479684133961021551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7149157590116696930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96af4b28cfd0424caaf4ef3f8d28428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 50
+  currentWeapon: {fileID: 8322961565364995260}
+  name: Boss SUPERSLIME has appeared!\n\nSelect a weapon carefully! You can only
+    take one weapon with you to confront a boss!
+  minions:
+  - {fileID: 1717869434130953043, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+  - {fileID: 1717869434130953043, guid: 444a04de06e7c3a428749913b26e87ee, type: 3}
+  - {fileID: 520832778997696942, guid: f78d8d66a4b31394097881f3dbaa8601, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  initialSpeed: 0.03
+  finalSpeed: 0.15
+  reload: -1
+  maxChaseDistance: 10
+  healthDropoff: 50

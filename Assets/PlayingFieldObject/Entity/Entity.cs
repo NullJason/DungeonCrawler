@@ -47,6 +47,7 @@ public abstract class Entity : PlayingFieldObject
   public void ForceHit(int damage, int invincibility){
     AddHealth(-damage, false);
     GrantInvincibility(invincibility, false);
+    OnHit();
   }
   //Does damage and triggers invincibility frames, assuming the Entity can be damaged (i.e. the Entity is not invincible).
   public bool TryHit(int damage, int invincibility){
@@ -85,4 +86,6 @@ public abstract class Entity : PlayingFieldObject
     SetWeapon(weapon);
     return true;
   }
+  //Called when hit successfully, i.e. whenever ForceHit() is called. 
+  private protected virtual void OnHit(){}
 }

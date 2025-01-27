@@ -12,6 +12,5 @@ public abstract class BossEnemy : Enemy
   private protected override void Die(){
     base.Die();
     WeaponUiManager.main.BossUnlock();
-    //MapManager.Instance.BossDefeated = true; //TODO: This is a good place for detecting when the boss is defeated!
   }
 }
