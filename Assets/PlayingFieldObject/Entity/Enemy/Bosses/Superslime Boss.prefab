@@ -188,6 +188,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   initialSpeed: 0.03
   finalSpeed: 0.15
   reload: -1

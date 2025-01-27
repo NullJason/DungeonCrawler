@@ -12,7 +12,7 @@ public class Superslime : BossEnemy
 
   private protected override void OnHit(){
     GameObject toBeSummoned = minions[Random.Range(0, minions.Count)];
-    if(toBeSummoned != null) Instantiate(toBeSummoned, RandomPosition(0.4f), transform.rotation, transform.parent);
+    if(toBeSummoned != null) Instantiate(toBeSummoned, RandomPosition(1.0f), transform.rotation, transform.parent);
     Debug.Log("Speed: " + GetSpeed());
   }
 
@@ -46,7 +46,7 @@ public class Superslime : BossEnemy
 
   private protected float GetSpeed(){
     if(GetHealth() > healthDropoff) return initialSpeed;
-    return (float)initialSpeed + ((float)finalSpeed - (float)initialSpeed) * (1.00f - ((float)GetHealth() / (float)healthDropoff)); //I wasn't sure which number was being incorrectly treated as an int, so I just made sure all of them were floats. 
+    return (float)initialSpeed + ((float)finalSpeed - (float)initialSpeed) * (1.00f - ((float)GetHealth() / (float)healthDropoff)); //I wasn't sure which number was being incorrectly treated as an int, so I just made sure all of them were floats.
   }
   private protected Vector3 RandomPosition(float range){
     return new Vector3(transform.position.x + Random.Range(-range, range), transform.position.y + Random.Range(-range, range), transform.position.z);
